@@ -56,3 +56,17 @@ img{
 .centrar-texto{
     text-align: center;
 }
+/*Header*/
+.header{
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*Para que la imagen se mantenga en el centro*/
+    background-position: center center;
+}
+.header__texto{
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem;
+}
