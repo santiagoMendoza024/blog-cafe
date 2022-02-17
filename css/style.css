@@ -70,3 +70,40 @@ img{
     color: var(--blanco);
     margin-top: 5rem;
 }
+@media(min-width:768px){
+    .header__texto{
+        margin-top: 15rem;
+    }
+}
+
+@media(min-width:768px){
+    .barra{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+   
+}
+.logo{
+    color: var(--blanco);
+}
+.logo__nombre{  
+    font-weight: 400;
+
+}
+.logo__bold{
+    font-weight: 700;
+}
+@media (min-width:768px) {
+    .navegacion{
+        display: flex;
+        gap: 2rem;
+    }
+}
+.navegacion__enlace{
+    display: block;/*Para que los elementos se pongan uno debajo del otro*/
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+}
